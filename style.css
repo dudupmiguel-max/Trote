@@ -1,0 +1,65 @@
+
+button{
+    background-color: #ff8800;
+    color: rgb(0, 0, 0); /*Cor do texto dentro do botao*/
+    padding: 10px 20px;/*Primeiro altura e depois largura*/
+    border-radius: 15px;
+    border: 1px solid;
+    cursor: pointer;
+    margin-top: 20px;  /* adiciona espaço acima do botão */
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(253, 179, 118);
+    transform: translateY(-7px);
+}
+body {
+    height: 100vh; /*vh é a porcentagem da altura da tela*/
+    display: flex;                                  
+    justify-content: center; /* centro horizontal */
+    align-items: center;/*centro vertical(tem que vir juntamente com o height pois coloca limite na pagina)*/
+    background-color: #3522e7e1;
+    padding: 0px;
+}
+.cartao {
+    background-color: #ffffff;
+    width: 350px;
+    height: 550px;
+       align-items: center;
+    padding: 20px; 
+    border: 2px solid rgb(65, 65, 65);
+    border-radius: 10px;/*aredondar a borda*/
+    display: flex;
+        flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 15px 30px;
+    gap: 5px;
+}
+.imagem{
+    border-radius: 10%;
+    width: 140px;
+    height: 140px;
+}
+.paragrafo{
+    text-align: left;
+    display: flex;
+    flex-direction:column;     
+    list-style: none; 
+    padding: 1px; 
+    font-size: 65%;
+    margin: 20px auto;
+}
+header h1{
+    color: #3522e7e1;
+}
+footer p{
+    font-size: 65%;
+}
+li{
+    border: 1px solid white;
+    padding: 5px;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+
